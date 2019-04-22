@@ -1,0 +1,14 @@
+%table#users
+  %thead
+    %tr
+      %th Name
+      %th Crime
+      %th Bail
+      %th More Info
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= user.name
+        %td= user.description
+        %td= user.bail
+        %td= link_to "More about #{user.name}", user_path(user)

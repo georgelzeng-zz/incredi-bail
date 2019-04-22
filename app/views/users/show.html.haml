@@ -1,0 +1,11 @@
+%h2 Details about #{@user.name}
+
+%ul#details
+  %li
+    Crime:
+    = @user.description
+  %li
+    Bail Set At:
+    = @user.bail
+
+= link_to 'Back to Newsfeed', home_path
