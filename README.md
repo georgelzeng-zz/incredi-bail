@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the initial v1 of the webapp for the incredi-bail platform. This dynamically links together several views and was used as a basic demonstration of what the app functionality should do. There are two views, an index view that acts as a newsfeed for potential recipients for donors, and a profile page that explores a recipients profile in more detail. 
